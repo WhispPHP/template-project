@@ -1,7 +1,10 @@
 # Whisp template project
 Use this template project to get started with Whisp, the pure PHP SSH server for TUIs, in 3 minutes flat
 
-# Files
+## What's included
+This template sets you up with the Whisp server, example apps, and Laravel Prompts.
+
+## Files
 
 - `whisp-server.php` - Runs the SSH server on port 2020, `php whisp-server.php`
 - `apps/` - Holds our apps
@@ -10,7 +13,7 @@ Use this template project to get started with Whisp, the pure PHP SSH server for
     - `confetti.php` - Draws confetti without Laravel Prompts
     - `mouse.php` - Basic mouse movement and click support
 
-# Testing
+## Testing
 
 Run the server, then SSH to each app:
 

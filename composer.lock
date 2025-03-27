@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b0b33f2a5c370fb70aa94beddc9cfca4",
+    "content-hash": "e44d48ef7d73084ea5a64d16ab1f450e",
     "packages": [
         {
             "name": "laravel/prompts",
@@ -1045,13 +1045,20 @@
         },
         {
             "name": "whispphp/whisp",
-            "version": "dev-main",
+            "version": "1.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/WhispPHP/whisp.git",
+                "reference": "ba0e63d73518b16464b15296e5043682bf550ab5"
+            },
             "dist": {
-                "type": "path",
-                "url": "../whisp",
-                "reference": "14b00d171e3a45f6ae4668c061772cbc06d62e1c"
+                "type": "zip",
+                "url": "https://api.github.com/repos/WhispPHP/whisp/zipball/ba0e63d73518b16464b15296e5043682bf550ab5",
+                "reference": "ba0e63d73518b16464b15296e5043682bf550ab5",
+                "shasum": ""
             },
             "require": {
+                "ext-ffi": "*",
                 "ext-pcntl": "*",
                 "ext-sodium": "*",
                 "php": "^8.2|^8.3|^8.4",
@@ -1068,14 +1075,7 @@
                     "Whisp\\": "src/"
                 }
             },
-            "scripts": {
-                "format": [
-                    "vendor/bin/pint"
-                ],
-                "test": [
-                    "vendor/bin/pest"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1086,9 +1086,11 @@
                 }
             ],
             "description": "Pure PHP SSH server designed for terminal apps",
-            "transport-options": {
-                "relative": true
-            }
+            "support": {
+                "issues": "https://github.com/WhispPHP/whisp/issues",
+                "source": "https://github.com/WhispPHP/whisp/tree/1.0.3"
+            },
+            "time": "2025-03-27T20:11:32+00:00"
         }
     ],
     "packages-dev": [],

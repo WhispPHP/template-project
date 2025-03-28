@@ -397,16 +397,16 @@
         },
         {
             "name": "symfony/console",
-            "version": "v7.2.1",
+            "version": "v7.2.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "fefcc18c0f5d0efe3ab3152f15857298868dc2c3"
+                "reference": "e51498ea18570c062e7df29d05a7003585b19b88"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/fefcc18c0f5d0efe3ab3152f15857298868dc2c3",
-                "reference": "fefcc18c0f5d0efe3ab3152f15857298868dc2c3",
+                "url": "https://api.github.com/repos/symfony/console/zipball/e51498ea18570c062e7df29d05a7003585b19b88",
+                "reference": "e51498ea18570c062e7df29d05a7003585b19b88",
                 "shasum": ""
             },
             "require": {
@@ -470,7 +470,7 @@
                 "terminal"
             ],
             "support": {
-                "source": "https://github.com/symfony/console/tree/v7.2.1"
+                "source": "https://github.com/symfony/console/tree/v7.2.5"
             },
             "funding": [
                 {
@@ -486,7 +486,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-12-11T03:49:26+00:00"
+            "time": "2025-03-12T08:11:12+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
@@ -1045,16 +1045,16 @@
         },
         {
             "name": "whispphp/whisp",
-            "version": "1.0.5",
+            "version": "1.0.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/WhispPHP/whisp.git",
-                "reference": "e25bf1141e146fbf720b4861f273875f0283e5a0"
+                "reference": "5b3ab9d81a3303ef7239dc6f13ce34511b70a6a6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/WhispPHP/whisp/zipball/e25bf1141e146fbf720b4861f273875f0283e5a0",
-                "reference": "e25bf1141e146fbf720b4861f273875f0283e5a0",
+                "url": "https://api.github.com/repos/WhispPHP/whisp/zipball/5b3ab9d81a3303ef7239dc6f13ce34511b70a6a6",
+                "reference": "5b3ab9d81a3303ef7239dc6f13ce34511b70a6a6",
                 "shasum": ""
             },
             "require": {
@@ -1088,9 +1088,9 @@
             "description": "Pure PHP SSH server designed for terminal apps",
             "support": {
                 "issues": "https://github.com/WhispPHP/whisp/issues",
-                "source": "https://github.com/WhispPHP/whisp/tree/1.0.5"
+                "source": "https://github.com/WhispPHP/whisp/tree/1.0.6"
             },
-            "time": "2025-03-28T12:28:50+00:00"
+            "time": "2025-03-28T16:47:04+00:00"
         }
     ],
     "packages-dev": [],

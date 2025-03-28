@@ -32,3 +32,6 @@ We don't need to pass the app or script name here as it's the default
 ```bash
 ssh localhost -p2020
 ```
+
+## Hosting
+Read the [full docs](https://whispphp.com) or use the files in the `systemd` dir to set this up to always run.

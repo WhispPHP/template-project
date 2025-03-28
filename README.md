@@ -1,8 +1,8 @@
 # Whisp template project
-Use this template project to get started with Whisp, the pure PHP SSH server for TUIs, in 3 minutes flat
+Use this template project to get started with [Whisp](https://github.com/WhispPHP/whisp), the pure PHP SSH server for TUIs, in 1 minute flat
 
 ## What's included
-This template sets you up with the Whisp server, example apps, and Laravel Prompts.
+This template sets you up with the [Whisp](https://github.com/WhispPHP/whisp) server, example TUI apps, and [Laravel Prompts](https://laravel.com/docs/12.x/prompts#main-content).
 
 ## Files
 

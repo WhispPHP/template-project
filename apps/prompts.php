@@ -103,10 +103,14 @@ while ($guessesMade < $maxGuesses && $guessedCorrectly === false) {
         hint: 'Start typing to see possible names',
         options: fn (string $value) => strlen($value) > 0
             ? $elephant->searchAvailableNames($value, $guessedNames)
-            : []//$elephant->listAvailableNames($guessedNames)
+            : $elephant->listAvailableNames($guessedNames)
     );
 
-    $guessedName = $elephant->listAvailableNames($guessedNames)[$guessedNameKey];
+    if (is_int($guessedNameKey)) {
+        $guessedName = $elephant->listAvailableNames($guessedNames)[$guessedNameKey];
+    } else {
+        $guessedName = $guessedNameKey;
+    }
     $guessedNames[] = $guessedName;
     $guessedCorrectly = $elephant->guessName($guessedName);
     $guessesMade++;

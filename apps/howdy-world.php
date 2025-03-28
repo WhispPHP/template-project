@@ -1,5 +1,6 @@
 <?php
 
-echo "Howdy World!\n\n";
+$name = $argv[1] ?? 'World';
+echo "Howdy {$name}!\n\n";
 
 sleep(5);

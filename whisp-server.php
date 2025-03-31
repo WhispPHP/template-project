@@ -17,4 +17,5 @@ $server->run(apps: [
     'mouse' => __DIR__ . '/apps/mouse.php',
     'confetti' => __DIR__ . '/apps/confetti.php',
     'beep' => __DIR__ . '/apps/beep.php', // ghostty doesn't support BEL
+    'clipboard' => __DIR__ . '/apps/clipboard-button.php',
 ]);

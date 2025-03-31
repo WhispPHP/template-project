@@ -3,4 +3,5 @@
 $name = $argv[1] ?? 'World';
 echo "Howdy {$name}!\n\n";
 
-sleep(5);
+// var_dump($_ENV);
+sleep(2);

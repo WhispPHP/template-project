@@ -124,7 +124,7 @@ list($termWidth, $termHeight) = getTerminalDimensions();
 
 // The text to display and potentially copy
 $titleText = "How cool is clipboard support in the terminal?!";
-$clipboardText = "Very bloody cool!";
+$clipboardText = "I was sent to your clipboard from the terminal, snazzy!";
 
 // Button properties
 $buttonText = "[ 📋 Copy to Clipboard ]";

@@ -18,7 +18,7 @@ This template sets you up with the [Whisp](https://github.com/WhispPHP/whisp) se
 
 ## Testing
 
-Run the server, then SSH to each app:
+Composer install, run the server, then SSH to each app:
 
 **Run the server**
 ```bash
